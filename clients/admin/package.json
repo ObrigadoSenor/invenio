@@ -1,0 +1,47 @@
+{
+  "name": "admin",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean:invenio:packages": "rimraf node_modules/@invenio && rimraf .next && rimraf yarn.lock && yarn && yarn dev"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@invenio/core": "../../component-library/packages/core",
+    "@invenio/system": "../../component-library/packages/system",
+    "@invenio/theme": "../../component-library/packages/theme",
+    "@reduxjs/toolkit": "^1.6.2",
+    "axios": "^0.24.0",
+    "cookie": "^0.4.1",
+    "dayjs": "^1.10.7",
+    "js-cookie": "^3.0.1",
+    "next": "12.0.3",
+    "react": "^17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.4.1",
+    "@types/js-cookie": "^3.0.1",
+    "@types/node": "16.11.6",
+    "@types/ramda": "^0.27.46",
+    "@types/react": "17.0.34",
+    "@types/styled-components": "^5.1.15",
+    "babel-plugin-styled-components": "^1.13.3",
+    "classnames": "^2.3.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.3",
+    "prettier": "^2.4.1",
+    "ramda": "^0.27.1",
+    "reset-css": "^5.0.1",
+    "rimraf": "^3.0.2",
+    "typescript": "4.4.4"
+  }
+}

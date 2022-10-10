@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["src", "src/components/link/.test.tsx"],
+  "exclude": ["node_modules", "dist", "example", "rollup.config.js", "packages"]
+}

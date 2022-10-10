@@ -1,0 +1,61 @@
+:root {
+  --icon-color: black;
+  --icon-disabled-color: grey;
+  --icon-size: '1rem';
+  --icon-s: 1rem;
+  --icon-m: 1.5rem;
+  --icon-l: 2rem;
+  --icon-xl: 3rem;
+}
+
+.icon {
+  display: flex;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  min-width: var(--icon-size);
+  min-height: var(--icon-size);
+  border-radius: var(--icon-size);
+}
+
+.icon,
+.disabled > svg {
+  fill: var(--icon-disabled-color);
+  color: var(--icon-disabled-color);
+}
+
+.icon,
+.disabled > svg path {
+  fill: var(--icon-disabled-color);
+  color: var(--icon-disabled-color);
+}
+
+.icon-s,
+.icon-s > svg {
+  width: var(--icon-s);
+  height: var(--icon-s);
+  min-width: var(--icon-s);
+  min-height: var(--icon-s);
+}
+
+.icon-m,
+.icon-m > svg {
+  width: var(--icon-m);
+  height: var(--icon-m);
+  min-width: var(--icon-m);
+  min-height: var(--icon-m);
+}
+
+.icon-l,
+.icon-l > svg {
+  width: var(--icon-l);
+  height: var(--icon-l);
+  min-width: var(--icon-l);
+  min-height: var(--icon-l);
+}
+.icon-xl,
+.icon-xl > svg {
+  width: var(--icon-xl);
+  height: var(--icon-xl);
+  min-width: var(--icon-xl);
+  min-height: var(--icon-xl);
+}
